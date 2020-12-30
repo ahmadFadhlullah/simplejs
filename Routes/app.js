@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
-let route = app.route;
+app.set('views','../Views');
+app.set('view engine','pug');
 
-module.exports = {app,route}
+app.use('/public',express.static('public'));
+
+module.exports = app;

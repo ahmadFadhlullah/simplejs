@@ -1,5 +1,4 @@
-require('./app.js');
-const {app} = require('./app.js');
+const app = require('./app.js');
 
 // Disini semua konfigurasi Routing
 
@@ -8,5 +7,5 @@ app.route('/').get(function(req,res){
 });
 
 
-module.exports = {app};
+module.exports = app;
 
