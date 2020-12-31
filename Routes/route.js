@@ -1,4 +1,4 @@
-const app = require('./app.js');
+const app = require('../middleware/middle.js');
 
 // Disini semua konfigurasi Routing
 
