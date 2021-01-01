@@ -1,5 +1,5 @@
 // the class for query database
-const db = require('db_conf.js');
+const db = require('./db_conf.js');
 class DB
 {
     constructor(table)
@@ -20,3 +20,5 @@ class DB
     }
 
 }
+
+module.exports = DB;

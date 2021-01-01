@@ -1,9 +1,11 @@
+const DB = require('../database/db_query.js');
+
 class baseController
 {
 
   helloWorld(req,res)
   {
-     res.send("Hello All from  Simple Js");
+     res.render("index");
   }
 
 

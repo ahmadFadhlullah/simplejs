@@ -4,7 +4,7 @@ const baseController = require("../Controllers/baseController.js");
 // initiate
 const base = new baseController;
 
-app.route('/').get((req,res)=>{
+app.route('/').get(function(req,res){
 	base.helloWorld(req,res);
 });
 
